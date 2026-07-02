@@ -1,0 +1,1 @@
+console.log("Luxury Glow Salon Website Loaded Successfully!");

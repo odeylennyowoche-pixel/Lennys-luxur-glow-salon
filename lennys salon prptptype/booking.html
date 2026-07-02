@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Appointment | Luxury Glow Salon</title>
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="booking.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+Luxury Glow
+</div>
+
+<ul class="nav-links">
+
+<li><a href="home.html">Home</a></li>
+<li><a href="service.html">Services</a></li>
+<li><a href="booking.html" class="active">Book Appointment</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="#" class="book-btn">
+Booking
+</a>
+
+</nav>
+
+</header>
+
+<section class="booking-header">
+
+<h1>Book Your Appointment</h1>
+
+<p>
+Choose one or more services and schedule each one separately.
+</p>
+
+</section>
+
+<div class="booking-container">
+
+<div class="customer-info">
+
+<h2>Customer Information</h2>
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+</div>
+
+<hr>
+
+<h2>Your Appointments</h2>
+
+<div id="appointments">
+
+<!-- JavaScript inserts appointments here -->
+
+</div>
+
+<button id="addAppointment">
+
++ Add Another Service
+
+</button>
+
+<hr>
+
+<div class="summary">
+
+<h2>Booking Summary</h2>
+
+<p>
+
+Services Selected:
+<span id="serviceCount">
+0
+</span>
+
+</p>
+
+<p>
+
+Estimated Total:
+
+<strong>
+
+₦<span id="totalPrice">
+0
+</span>
+
+</strong>
+
+</p>
+
+</div>
+
+<button id="continueBtn">
+    Continue to Invoice
+</button>
+
+</div>
+
+<script src="booking.js"></script>
+
+</body>
+</html>

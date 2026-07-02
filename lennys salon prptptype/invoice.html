@@ -1,0 +1,103 @@
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/invoice.css">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Booking Invoice</title>
+
+<link rel="stylesheet" href="invoice.css">
+
+</head>
+
+<body>
+
+<div class="invoice-container">
+
+<h1>Luxury Glow Salon</h1>
+
+<p class="subtitle">
+
+Booking Invoice
+
+</p>
+
+<hr>
+
+<div class="customer">
+
+<h2>Customer Information</h2>
+
+<p><strong>Name:</strong> <span id="customerName"></span></p>
+
+<p><strong>Email:</strong> <span id="customerEmail"></span></p>
+
+<p><strong>Phone:</strong> <span id="customerPhone"></span></p>
+
+</div>
+
+<hr>
+
+<h2>Appointments</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Service</th>
+<th>Staff</th>
+<th>Date</th>
+<th>Time</th>
+<th>Price</th>
+
+</tr>
+
+</thead>
+
+<tbody id="invoiceBody">
+
+</tbody>
+
+</table>
+
+<div class="total">
+
+<h2>
+
+Total:
+₦<span id="grandTotal">0</span>
+
+</h2>
+
+</div>
+
+<div class="buttons">
+
+<button onclick="window.print()">
+
+Print Invoice
+
+</button>
+
+<button id="confirmBooking">
+
+Confirm Booking
+
+</button>
+
+</div>
+
+</div>
+
+<script src="invoice.js"></script>
+
+</body>
+
+</html>
