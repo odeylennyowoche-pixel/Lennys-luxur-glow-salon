@@ -1,0 +1,178 @@
+.booking-header{
+background:#111;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.booking-header h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.booking-container{
+
+width:90%;
+max-width:900px;
+margin:50px auto;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.customer-info{
+
+display:grid;
+grid-template-columns:1fr;
+gap:20px;
+
+}
+
+.customer-info input{
+
+padding:15px;
+font-size:17px;
+border:1px solid #ccc;
+border-radius:8px;
+
+}
+
+.appointment{
+
+border:1px solid #ddd;
+padding:25px;
+margin:25px 0;
+border-radius:10px;
+background:#fafafa;
+
+}
+
+.appointment select,
+.appointment input{
+
+width:100%;
+padding:14px;
+margin:12px 0;
+font-size:16px;
+
+}
+
+#addAppointment{
+
+margin-top:20px;
+padding:15px 25px;
+background:#d4af37;
+border:none;
+color:white;
+font-size:17px;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+.summary{
+
+margin-top:40px;
+
+}
+
+#continueBtn{
+
+margin-top:30px;
+width:100%;
+padding:18px;
+background:#111;
+color:white;
+font-size:18px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+
+}
+
+hr{
+
+margin:35px 0;
+
+}
+
+label{
+
+display:block;
+margin-top:15px;
+font-weight:bold;
+
+}
+
+.price{
+
+margin-top:15px;
+font-size:18px;
+color:#d4af37;
+font-weight:bold;
+
+}
+
+.remove{
+
+margin-top:20px;
+padding:10px 20px;
+background:#c62828;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+.remove:hover{
+
+background:#a30000;
+
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#111;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#d4af37;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.nav-links li{
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:.3s;
+}
+
+.nav-links a:hover,
+.active{
+color:#d4af37;
+}
+
+.book-btn{
+background:#d4af37;
+padding:12px 22px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
